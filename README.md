@@ -13,9 +13,9 @@
 
 Analytics Engineer with **5 years of experience** transforming raw data into actionable business intelligence. I build AI-powered tools that democratize data access, enabling natural language interaction with enterprise data platforms.
 
-Currently focused on developing **Model Context Protocol (MCP) servers** that bridge AI assistants with business intelligence tools like Power BI and Microsoft Fabric.
+Currently focused on developing Analytics Engineering along with **Model Context Protocol (MCP) servers** that bridge AI assistants with business intelligence tools like Power BI and Microsoft Fabric.
 
-**Dhaka, Bangladesh** | Open to opportunities in **UAE & Saudi Arabia**
+**Dhaka, Bangladesh** | Open to opportunities in **UAE, Saudi Arabia & USA**
 
 ---
 
