@@ -1,56 +1,120 @@
-<h2 align="left">Hi 👋! My name is Sulaiman Ahmed and I'm an Analytics Engineer, from Dhaka, Bangladesh.</h2>
+# Sulaiman Ahmed
 
-###
+**Data Analytics Engineer | Microsoft Certified Professional | Power BI Expert**
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sulaiman013&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sulaiman013&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/sulaimanahmed)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@sulaimanahmed013)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sulaimanahmed013@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=About.me&logoColor=white)](https://sulaiman-ahmed.lovable.app)
 
-###
+---
 
-<img align="right" height="150" src="https://media1.tenor.com/m/WGnovQpg92gAAAAC/cejm-cavalcade.gif"  />
+### About Me
 
-###
+Analytics Engineer with 5+ years of experience transforming raw data into actionable business insights. I specialize in building data pipelines, creating interactive dashboards, and developing AI-powered analytics solutions.
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="30" alt="microsoftsqlserver logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="30" alt="slack logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="30" alt="jira logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="30" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30" alt="linkedin logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="30" alt="r logo"  />
-</div>
+Based in Dhaka, Bangladesh | Open to opportunities in UAE & Saudi Arabia
 
-###
+---
 
-<div align="left">
-  <a href="https://www.youtube.com/@sulaimanahmed013" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
-  </a>
-  <a href="sulaimanahmed013@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="linkedin.com/in/sulaimanahmed" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
+### Featured Projects
 
-###
+<table>
+<tr>
+<td width="50%">
 
-<br clear="both">
+**[Power BI MCP Server](https://github.com/sulaiman013/powerbi-mcp)**
 
-<img src="https://raw.githubusercontent.com/sulaiman013/sulaiman013/output/snake.svg" alt="Snake animation" />
+Natural language interaction with Power BI datasets using Model Context Protocol. Enables conversational analytics without writing DAX.
 
-###
+![Stars](https://img.shields.io/github/stars/sulaiman013/powerbi-mcp?style=flat&color=yellow)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+</td>
+<td width="50%">
+
+**[Fabric SQL Assistant](https://github.com/sulaiman013/Fabric-SQL-Assistant)**
+
+MCP Server for Microsoft Fabric SQL databases. Query your data warehouse using natural language.
+
+![Stars](https://img.shields.io/github/stars/sulaiman013/Fabric-SQL-Assistant?style=flat&color=yellow)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[Chat with Your Data](https://github.com/sulaiman013/chat-with-your-data-fabric-PowerBI-)**
+
+AI-powered application for conversational interaction with Microsoft Fabric databases and Power BI semantic models.
+
+![Stars](https://img.shields.io/github/stars/sulaiman013/chat-with-your-data-fabric-PowerBI-?style=flat&color=yellow)
+
+</td>
+<td width="50%">
+
+**[Personal Data Projects](https://github.com/sulaiman013/My-Personal-Projects)**
+
+Collection of data analysis projects showcasing end-to-end analytics workflows using Python, R, and BI tools.
+
+![Stars](https://img.shields.io/github/stars/sulaiman013/My-Personal-Projects?style=flat&color=yellow)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+### Tech Stack
+
+**Data & Analytics**
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft_Fabric-0078D4?style=flat&logo=microsoft&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+
+**Databases**
+
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+
+**Languages & Cloud**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+
+---
+
+### Certifications
+
+<img src="https://img.shields.io/badge/Microsoft_Certified-4x-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Certified"/>
+
+- Microsoft Certified: Power BI Data Analyst Associate
+- Microsoft Certified: Azure Data Fundamentals
+- Microsoft Certified: Azure Fundamentals
+- Microsoft Certified: Data Analyst Associate
+
+---
+
+### GitHub Stats
+
+<p>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=sulaiman013&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sulaiman013&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top Languages"/>
+</p>
+
+---
+
+### Let's Connect
+
+I'm passionate about the intersection of AI and data analytics. Currently exploring how Large Language Models can democratize data access for non-technical users.
+
+Open to collaboration on data analytics projects and AI-powered BI solutions.
+
+<p>
+<a href="https://linkedin.com/in/sulaimanahmed"><img src="https://img.shields.io/badge/Let's_connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</p>
