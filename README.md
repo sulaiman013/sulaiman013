@@ -90,11 +90,10 @@ CGPA: 3.55 | 2017 - 2021
 
 ## GitHub Stats
 
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=sulaiman013&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sulaiman013&layout=compact&theme=github_dark&hide_border=true&langs_count=6"/>
-</p>
-
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sulaiman013&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="160" alt="sulaiman013's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sulaiman013&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="160" alt="Top Languages" />
+</div>
 ---
 
 ## Let's Connect
