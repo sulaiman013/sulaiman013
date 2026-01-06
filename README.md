@@ -99,14 +99,6 @@ CGPA: 3.55 | 2017 - 2021
   <br />
   <br />
 
-  <a href="https://github.com/sulaiman013">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=sulaiman013&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="175" alt="GitHub Streak" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sulaiman013&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="175" alt="Top Languages" />
-  </a>
-
-  <br />
-  <br />
-
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black" alt="Power BI" />
   <img src="https://img.shields.io/badge/Microsoft_Fabric-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Fabric" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
