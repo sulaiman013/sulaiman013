@@ -1,6 +1,6 @@
 # Sulaiman Ahmed
 
-**Data Analytics Engineer | 4x Microsoft Certified | Building AI-Powered Data Tools**
+**Data Analytics Engineer | 5x Microsoft Certified | Building AI-Powered Data Tools**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/sulaimanahmed)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=About.me&logoColor=white)](https://sulaiman-ahmed.lovable.app)
@@ -57,7 +57,7 @@ Microsoft Azure • Azure Data Factory • Git • SSIS
 
 ## Certifications
 
-<img src="https://img.shields.io/badge/Microsoft_Certified-4x-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
+<img src="https://img.shields.io/badge/Microsoft_Certified-5x-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
 
 | Certification | Focus |
 |--------------|-------|
@@ -65,6 +65,7 @@ Microsoft Azure • Azure Data Factory • Git • SSIS
 | Fabric Analytics Engineer Associate | End-to-end analytics in Microsoft Fabric |
 | Fabric Data Engineer Associate | Data pipelines, lakehouses, warehouses |
 | Azure Data Engineer Associate | Azure data services, ETL, data storage |
+| SQL AI Developer Associate | Vector search, embeddings & RAG-enabled database solutions (DP-800) |
 
 ---
 
