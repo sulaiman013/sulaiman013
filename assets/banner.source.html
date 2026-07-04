@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sulaiman Ahmed — GitHub Banner (Light)</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg-1:         oklch(0.985 0.004 245);
+    --bg-2:         oklch(0.970 0.006 245);
+    --bg-3:         oklch(0.950 0.008 245);
+
+    --card:         oklch(0.20 0.04 245 / 0.025);
+    --card-strong:  oklch(0.20 0.04 245 / 0.045);
+    --border:       oklch(0.20 0.04 245 / 0.115);
+    --border-soft:  oklch(0.20 0.04 245 / 0.075);
+
+    --text-1:       oklch(0.205 0.045 245);
+    --text-2:       oklch(0.420 0.035 245);
+    --text-3:       oklch(0.580 0.025 245);
+
+    --orange:       oklch(0.620 0.215 35);
+    --orange-soft:  oklch(0.620 0.215 35 / 0.10);
+    --blue:         oklch(0.480 0.160 245);
+    --teal:         oklch(0.540 0.135 195);
+  }
+
+  html, body {
+    background: oklch(0.92 0.010 245);
+    font-family: 'Manrope', sans-serif;
+    margin: 0; padding: 0;
+    width: 1584px; height: 396px;
+    overflow: hidden;
+  }
+
+  /* ===================== BANNER ===================== */
+  .banner {
+    position: relative;
+    width: 1584px;
+    height: 396px;
+    overflow: hidden;
+    display: flex; flex-direction: column;
+    background:
+      radial-gradient(ellipse 800px 500px at 75% 35%, oklch(0.620 0.215 35 / 0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 700px 400px at 20% 90%, oklch(0.480 0.160 245 / 0.05) 0%, transparent 60%),
+      linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 60%, var(--bg-3) 100%);
+    color: var(--text-1);
+  }
+
+  .dots {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(oklch(0.20 0.04 245 / 0.06) 1px, transparent 1.5px);
+    background-size: 22px 22px;
+    pointer-events: none;
+    mask-image: linear-gradient(115deg, transparent 0%, black 30%, black 100%);
+    -webkit-mask-image: linear-gradient(115deg, transparent 0%, black 30%, black 100%);
+  }
+
+  .spine {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, var(--orange) 22%, var(--orange) 78%, transparent 100%);
+    opacity: 0.9;
+  }
+
+  .flow {
+    position: absolute; right: -20px; top: -10px; width: 720px; height: 240px;
+    opacity: 0.35;
+    pointer-events: none;
+  }
+
+  /* ===================== MAIN GRID ===================== */
+  .grid {
+    position: relative;
+    flex: 1; min-height: 0;
+    margin: 26px 56px 0 56px;
+    display: grid;
+    grid-template-columns: 380px 1fr 500px;
+    gap: 32px;
+    z-index: 3;
+  }
+
+  /* LEFT: current role card */
+  .left {
+    position: relative;
+    display: flex; align-items: center;
+    padding: 4px 0 0 4px;
+  }
+
+  .nowcard {
+    width: 100%;
+    background: oklch(1 0 0);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px 16px 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+      0 1px 2px oklch(0.205 0.045 245 / 0.05),
+      0 6px 18px oklch(0.205 0.045 245 / 0.05);
+  }
+  .nowcard::before {
+    content: '';
+    position: absolute; top: 14px; bottom: 14px; left: 0;
+    width: 3px;
+    background: var(--orange);
+    border-radius: 2px;
+  }
+  .now-tag {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; font-weight: 700;
+    letter-spacing: 2.4px; text-transform: uppercase;
+    color: var(--text-3);
+  }
+  .now-tag .dot {
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--orange);
+    box-shadow: 0 0 8px oklch(0.620 0.215 35 / 0.6);
+  }
+  .now-role {
+    margin-top: 11px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 23px; font-weight: 800;
+    letter-spacing: -0.6px;
+    color: var(--text-1);
+    line-height: 1.02;
+  }
+  .now-co {
+    margin-top: 4px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px; font-weight: 700;
+    color: var(--orange);
+    letter-spacing: -0.1px;
+  }
+  .now-co .sub { color: var(--text-2); font-weight: 600; }
+  .now-div { height: 1px; background: var(--border); margin: 13px 0 11px; }
+  .now-meta {
+    font-family: 'Manrope', sans-serif;
+    font-size: 11.5px; font-weight: 500;
+    color: var(--text-2);
+    line-height: 1.42;
+  }
+
+  /* ===================== CENTER ===================== */
+  .center {
+    display: flex; flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    min-width: 0;
+  }
+
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 12px;
+    width: fit-content;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 3px; text-transform: uppercase;
+    color: var(--orange);
+  }
+  .eyebrow::before {
+    content: '';
+    width: 26px; height: 1.5px;
+    background: var(--orange);
+  }
+
+  .name {
+    font-family: 'Manrope', sans-serif;
+    font-size: 58px; font-weight: 800;
+    line-height: 0.98;
+    letter-spacing: -1.6px;
+    color: var(--text-1);
+  }
+
+  .role {
+    font-family: 'Manrope', sans-serif;
+    font-size: 19px; font-weight: 600;
+    line-height: 1.2;
+    color: var(--text-2);
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+  }
+  .role .accent { color: var(--text-1); }
+  .role .sep { color: var(--orange); margin: 0 9px; font-weight: 700; }
+
+  .value {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13.5px; font-weight: 500;
+    line-height: 1.45;
+    color: var(--text-2);
+    max-width: 560px;
+  }
+  .value b { color: var(--text-1); font-weight: 700; }
+
+  .tech {
+    display: flex; align-items: center; gap: 16px;
+    margin-top: 4px;
+    padding: 10px 16px;
+    background: var(--card);
+    border: 1px solid var(--border-soft);
+    border-radius: 8px;
+    width: fit-content;
+  }
+  .tech .tlabel {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px; font-weight: 700;
+    letter-spacing: 2.2px; text-transform: uppercase;
+    color: var(--text-3);
+    padding-right: 12px;
+    border-right: 1px solid var(--border);
+  }
+  .tech img { height: 22px; width: 22px; display: block; }
+
+  /* ===================== RIGHT (certifications) ===================== */
+  .right {
+    display: flex; flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .right-head {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 14px;
+  }
+  .right-head .title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 3px; text-transform: uppercase;
+    color: var(--text-3);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .right-head .title::before {
+    content: '';
+    width: 8px; height: 8px;
+    background: var(--orange);
+    border-radius: 50%;
+    box-shadow: 0 0 8px oklch(0.620 0.215 35 / 0.5);
+  }
+  .right-head .count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--orange);
+  }
+
+  .certs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+  }
+  .cert {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 12px;
+    align-items: center;
+    padding: 9px 12px 9px 14px;
+    background: oklch(1 0 0);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    position: relative;
+    box-shadow:
+      0 1px 2px oklch(0.205 0.045 245 / 0.05),
+      0 4px 12px oklch(0.205 0.045 245 / 0.04);
+  }
+  .cert::before {
+    content: '';
+    position: absolute; top: 8px; bottom: 8px; left: 0;
+    width: 3px;
+    background: var(--orange);
+    border-radius: 2px;
+  }
+
+  .badge-mark {
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .badge-mark img { width: 44px; height: 44px; display: block; }
+
+  .cert-info { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+  .cert-code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px; font-weight: 700;
+    color: var(--text-1);
+    letter-spacing: 0.5px;
+    line-height: 1.05;
+  }
+  .cert-name {
+    font-family: 'Manrope', sans-serif;
+    font-size: 10.5px; font-weight: 600;
+    color: var(--text-2);
+    letter-spacing: 0.1px;
+    line-height: 1.15;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .cert.featured {
+    grid-column: 1 / -1;
+    grid-template-columns: 44px 1fr auto;
+    background: linear-gradient(90deg, oklch(0.620 0.215 35 / 0.055) 0%, oklch(1 0 0) 58%);
+  }
+  .cert-flag {
+    justify-self: end;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px; font-weight: 700;
+    letter-spacing: 1.8px; text-transform: uppercase;
+    color: var(--orange);
+    padding: 4px 10px;
+    background: oklch(1 0 0 / 0.65);
+    border: 1px solid oklch(0.620 0.215 35 / 0.35);
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+
+  /* ===================== BOTTOM STRIP ===================== */
+  .bottom {
+    position: relative;
+    flex-shrink: 0;
+    height: 56px;
+    margin: 0 56px;
+    padding-left: 414px;
+    display: flex; justify-content: space-between; align-items: center;
+    border-top: 1px solid var(--border);
+    z-index: 4;
+  }
+  .bottom .stats {
+    display: flex; align-items: center; gap: 20px;
+  }
+  .bottom .stat {
+    display: flex; align-items: baseline; gap: 7px;
+    font-family: 'Manrope', sans-serif;
+  }
+  .bottom .stat .num {
+    font-size: 17px; font-weight: 800;
+    color: var(--orange);
+    letter-spacing: -0.3px;
+  }
+  .bottom .stat.teal .num { color: var(--teal); }
+  .bottom .stat.blue .num { color: var(--blue); }
+  .bottom .stat .lbl {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 1.6px; text-transform: uppercase;
+    color: var(--text-2);
+  }
+  .bottom .sep {
+    width: 1px; height: 16px;
+    background: var(--border);
+  }
+  .bottom .handle {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 6px 14px;
+    background: var(--orange-soft);
+    border: 1px solid oklch(0.620 0.215 35 / 0.30);
+    border-radius: 999px;
+    color: var(--orange);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; font-weight: 700;
+    letter-spacing: 1.8px; text-transform: uppercase;
+  }
+  .bottom .handle::before {
+    content: '';
+    width: 7px; height: 7px;
+    background: var(--orange);
+    border-radius: 50%;
+    box-shadow: 0 0 6px oklch(0.620 0.215 35 / 0.55);
+  }
+</style>
+</head>
+<body>
+
+<div class="banner">
+
+  <div class="spine"></div>
+  <div class="dots"></div>
+
+  <svg class="flow" viewBox="0 0 720 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="line1L" x1="0" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="oklch(0.620 0.215 35)" stop-opacity="0"/>
+        <stop offset="0.5" stop-color="oklch(0.620 0.215 35)" stop-opacity="0.55"/>
+        <stop offset="1" stop-color="oklch(0.620 0.215 35)" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="line2L" x1="0" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="oklch(0.480 0.160 245)" stop-opacity="0"/>
+        <stop offset="0.5" stop-color="oklch(0.480 0.160 245)" stop-opacity="0.50"/>
+        <stop offset="1" stop-color="oklch(0.480 0.160 245)" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <path d="M0 40 Q 200 10 360 60 T 720 50" stroke="url(#line1L)" stroke-width="1.2" fill="none"/>
+    <path d="M0 110 Q 220 80 380 130 T 720 120" stroke="url(#line2L)" stroke-width="1.2" fill="none"/>
+    <path d="M0 180 Q 200 150 360 200 T 720 195" stroke="url(#line1L)" stroke-width="1" fill="none" opacity="0.7"/>
+    <circle cx="120" cy="35" r="2" fill="oklch(0.620 0.215 35)" opacity="0.8"/>
+    <circle cx="360" cy="65" r="2" fill="oklch(0.620 0.215 35)" opacity="0.8"/>
+    <circle cx="540" cy="55" r="2" fill="oklch(0.540 0.135 195)" opacity="0.85"/>
+    <circle cx="220" cy="105" r="2" fill="oklch(0.480 0.160 245)" opacity="0.75"/>
+    <circle cx="460" cy="135" r="2" fill="oklch(0.480 0.160 245)" opacity="0.75"/>
+    <circle cx="300" cy="195" r="2" fill="oklch(0.620 0.215 35)" opacity="0.7"/>
+  </svg>
+
+  <div class="grid">
+
+    <!-- LEFT: current role -->
+    <div class="left">
+      <div class="nowcard">
+        <div class="now-tag"><span class="dot"></span> Currently</div>
+        <div class="now-role">Lead Data Engineer</div>
+        <div class="now-co">HOPS <span class="sub">· Hospitality Ops · UK</span></div>
+        <div class="now-div"></div>
+        <div class="now-meta">Building the data &amp; analytics platform end&#8209;to&#8209;end &mdash; remote from Dhaka, BD.</div>
+      </div>
+    </div>
+
+    <!-- CENTER -->
+    <div class="center">
+      <div class="eyebrow">Data &amp; Analytics Engineering</div>
+      <h1 class="name">Sulaiman Ahmed</h1>
+      <div class="role">
+        Microsoft Fabric
+        <span class="sep">/</span>
+        <span class="accent">Databricks</span>
+        <span class="sep">/</span>
+        <span class="accent">dbt</span>
+        <span class="sep">/</span>
+        Power BI
+      </div>
+      <div class="value">
+        I build <b>governed, AI-assisted data platforms</b> that turn fragile data estates into trusted analytical foundations enterprises decide from.
+      </div>
+      <div class="tech">
+        <span class="tlabel">Stack</span>
+        <img src="https://api.iconify.design/logos:microsoft-power-bi.svg" alt="Power BI" title="Power BI">
+        <img src="https://api.iconify.design/logos:microsoft-azure.svg" alt="Microsoft Azure" title="Microsoft Azure">
+        <img src="https://api.iconify.design/simple-icons:databricks.svg?color=%23FF3621" alt="Databricks" title="Databricks">
+        <img src="https://api.iconify.design/logos:dbt-icon.svg" alt="dbt" title="dbt">
+        <img src="https://api.iconify.design/logos:snowflake-icon.svg" alt="Snowflake" title="Snowflake">
+        <img src="https://api.iconify.design/logos:apache-spark.svg" alt="Apache Spark" title="Apache Spark">
+        <img src="https://api.iconify.design/logos:python.svg" alt="Python" title="Python">
+      </div>
+    </div>
+
+    <!-- RIGHT: certifications -->
+    <div class="right">
+
+      <div class="right-head">
+        <span class="title">Microsoft Certified</span>
+        <span class="count">5 / 5 ASSOCIATE</span>
+      </div>
+
+      <div class="certs">
+
+        <div class="cert featured">
+          <div class="badge-mark">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate" width="44" height="44">
+          </div>
+          <div class="cert-info">
+            <span class="cert-code">DP-800</span>
+            <span class="cert-name">SQL AI Developer</span>
+          </div>
+          <span class="cert-flag">New</span>
+        </div>
+
+        <div class="cert">
+          <div class="badge-mark">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate" width="44" height="44">
+          </div>
+          <div class="cert-info">
+            <span class="cert-code">PL-300</span>
+            <span class="cert-name">Power BI Data Analyst</span>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="badge-mark">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate" width="44" height="44">
+          </div>
+          <div class="cert-info">
+            <span class="cert-code">DP-600</span>
+            <span class="cert-name">Fabric Analytics Engineer</span>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="badge-mark">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate" width="44" height="44">
+          </div>
+          <div class="cert-info">
+            <span class="cert-code">DP-700</span>
+            <span class="cert-name">Fabric Data Engineer</span>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="badge-mark">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate" width="44" height="44">
+          </div>
+          <div class="cert-info">
+            <span class="cert-code">DP-203</span>
+            <span class="cert-name">Azure Data Engineer</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- BOTTOM STRIP -->
+  <div class="bottom">
+    <div class="stats">
+      <div class="stat">
+        <span class="num">5+</span>
+        <span class="lbl">Years</span>
+      </div>
+      <div class="sep"></div>
+      <div class="stat teal">
+        <span class="num">73%</span>
+        <span class="lbl">Cloud Cost Cut</span>
+      </div>
+      <div class="sep"></div>
+      <div class="stat blue">
+        <span class="num">250+</span>
+        <span class="lbl">Projects</span>
+      </div>
+    </div>
+    <div class="handle">Open to Relocate · MY · UAE · QA</div>
+  </div>
+
+</div>
+
+</body>
+</html>

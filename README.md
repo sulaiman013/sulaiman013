@@ -1,33 +1,45 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Sulaiman Ahmed — Lead Data Engineer at HOPS · 5x Microsoft Certified · Microsoft Fabric, Databricks, dbt, Power BI" width="100%" />
+</p>
+
 # Sulaiman Ahmed
 
-**Data Analytics Engineer | 5x Microsoft Certified | Building AI-Powered Data Tools**
+**Lead Data Engineer @ HOPS | 5x Microsoft Certified | Building AI-Powered Data Tools**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/sulaimanahmed)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=About.me&logoColor=white)](https://sulaiman-ahmed.lovable.app)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@sulaimanahmed013)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:contact@sulaimanahmed.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sulaimanahmed013@gmail.com)
 
 ---
 
 ## About
 
-Analytics Engineer with **5 years of experience** transforming raw data into actionable business intelligence. I build AI-powered tools that democratize data access, enabling natural language interaction with enterprise data platforms.
+**Lead Data Engineer at HOPS** — a UK hospitality-operations company — with **5+ years of experience** transforming raw data into governed, AI-assisted analytics platforms. I build tools that democratize data access, enabling natural language interaction with enterprise data platforms.
 
-Currently focused on developing Analytics Engineering along with **Model Context Protocol (MCP) servers** that bridge AI assistants with business intelligence tools like Power BI and Microsoft Fabric.
+Currently focused on Analytics Engineering along with **Model Context Protocol (MCP) servers** that bridge AI assistants with business intelligence tools like Power BI and Microsoft Fabric.
 
 **Dhaka, Bangladesh** | Open to opportunities in **UAE, Saudi Arabia & USA**
 
 ---
 
-## Featured Projects
+## What I'm Building Now
 
-| Project | Description | Stars |
-|---------|-------------|-------|
-| [**powerbi-mcp**](https://github.com/sulaiman013/powerbi-mcp) | Enterprise MCP server enabling natural language interaction with Power BI datasets. Supports Desktop & Cloud via XMLA. 34 tools including safe bulk editing with PBIP file parsing. | ![Stars](https://img.shields.io/github/stars/sulaiman013/powerbi-mcp?style=flat&color=yellow) |
-| [**powerbi-expert-app**](https://github.com/sulaiman013/powerbi-expert-app) | AI assistant for Power BI with DAX generation, schema discovery, RLS testing, and audit logging. Supports Azure OpenAI, Claude & Ollama. | ![Stars](https://img.shields.io/github/stars/sulaiman013/powerbi-expert-app?style=flat&color=yellow) |
-| [**Fabric-SQL-Assistant**](https://github.com/sulaiman013/Fabric-SQL-Assistant) | MCP Server for Microsoft Fabric SQL databases. Query your data warehouse using natural language. | ![Stars](https://img.shields.io/github/stars/sulaiman013/Fabric-SQL-Assistant?style=flat&color=yellow) |
-| [**AIRTABLE-MCP**](https://github.com/sulaiman013/AIRTABLE-MCP) | Advanced MCP server for Airtable with filtering, aggregation, schema inspection, and security validation. | ![Stars](https://img.shields.io/github/stars/sulaiman013/AIRTABLE-MCP?style=flat&color=yellow) |
-| [**chat-with-your-data-fabric-PowerBI**](https://github.com/sulaiman013/chat-with-your-data-fabric-PowerBI-) | AI-powered conversational interface for Microsoft Fabric databases and Power BI semantic models. | ![Stars](https://img.shields.io/github/stars/sulaiman013/chat-with-your-data-fabric-PowerBI-?style=flat&color=yellow) |
+> My 5 most recently updated public repositories — a live look at what I'm working on right now.
+
+| Project | What it is | Stars |
+|---------|------------|-------|
+| [**sulaiman-ahmed**](https://github.com/sulaiman013/sulaiman-ahmed) | My personal portfolio site & technical blog — React + Vite + TypeScript. | ![Stars](https://img.shields.io/github/stars/sulaiman013/sulaiman-ahmed?style=flat&color=yellow) |
+| [**PowerBIStaticRLSMagic**](https://github.com/sulaiman013/PowerBIStaticRLSMagic) | App-owns-data Power BI embedding with static RLS: one embedded report, each viewer sees only their own slice — no per-user Power BI licenses. | ![Stars](https://img.shields.io/github/stars/sulaiman013/PowerBIStaticRLSMagic?style=flat&color=yellow) |
+| [**CodeFirstPowerBI**](https://github.com/sulaiman013/CodeFirstPowerBI) | Code-first Power BI report design: from an Excalidraw sketch to a production report, with a coding agent authoring the canvas, visuals & model. | ![Stars](https://img.shields.io/github/stars/sulaiman013/CodeFirstPowerBI?style=flat&color=yellow) |
+| [**powerbi-mcp**](https://github.com/sulaiman013/powerbi-mcp) | MCP server for natural-language interaction with Power BI datasets — Desktop & Cloud via XMLA. | ![Stars](https://img.shields.io/github/stars/sulaiman013/powerbi-mcp?style=flat&color=yellow) |
+| [**Superstore_FabricApp**](https://github.com/sulaiman013/Superstore_FabricApp) | Two-app Microsoft Fabric translytical demo: an operational self-checkout that *writes* sales, and a Direct Lake dashboard that *reads* them back near real time. | ![Stars](https://img.shields.io/github/stars/sulaiman013/Superstore_FabricApp?style=flat&color=yellow) |
+
+<p align="center">
+  <a href="https://github.com/sulaiman013?tab=repositories&sort=pushed">
+    <img src="https://img.shields.io/badge/Browse_all_public_repositories-%E2%86%92-0078D4?style=for-the-badge&logo=github&logoColor=white" alt="Browse all public repositories" />
+  </a>
+</p>
 
 ---
 
@@ -35,22 +47,22 @@ Currently focused on developing Analytics Engineering along with **Model Context
 
 **Analytics & BI**
 ```
-Power BI (DAX, XMLA, TMDL) • Microsoft Fabric • Tableau • Excel
+Power BI (DAX, XMLA, TMDL) • Microsoft Fabric • Databricks • dbt • Tableau
 ```
 
-**Databases**
+**Databases & Warehousing**
 ```
-SQL Server (T-SQL) • PostgreSQL • MySQL • Snowflake
+SQL Server (T-SQL) • Snowflake • MySQL • Medallion Architecture
 ```
 
 **Programming**
 ```
-Python • R • SQL
+Python • PySpark • SQL • R
 ```
 
-**Cloud & Tools**
+**Cloud & Ops**
 ```
-Microsoft Azure • Azure Data Factory • Git • SSIS
+Microsoft Azure • Azure Data Factory • Azure DevOps (CI/CD) • Fivetran • Git
 ```
 
 ---
@@ -73,10 +85,10 @@ Microsoft Azure • Azure Data Factory • Git • SSIS
 
 | Role | Company | Period |
 |------|---------|--------|
-| Associate Analytics Engineer | Data Crafters | Nov 2024 - Present |
-| Data Scientist | Insightin Technology Ltd. | Jan 2024 - Oct 2024 |
-| Freelance Data Analyst | Fiverr (250+ projects) | Nov 2020 - Present |
-| Research Analyst | SUST Research Center | Aug 2020 - Feb 2022 |
+| Lead Data Engineer | HOPS — Hospitality Operations (UK) | May 2026 - Present |
+| Analytics Engineer | Data Crafters | Nov 2024 - May 2026 |
+| Data Engineer | Insightin Technology Ltd. | Jan 2024 - Oct 2024 |
+| Data Engineer | SJ Analytics | Nov 2020 - Dec 2023 |
 
 ---
 
