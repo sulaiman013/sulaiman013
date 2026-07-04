@@ -29,11 +29,11 @@ Currently focused on Analytics Engineering along with **Model Context Protocol (
 
 | Project | What it is | Stars |
 |---------|------------|-------|
-| [**sulaiman-ahmed**](https://github.com/sulaiman013/sulaiman-ahmed) | My personal portfolio site & technical blog — React + Vite + TypeScript. | ![Stars](https://img.shields.io/github/stars/sulaiman013/sulaiman-ahmed?style=flat&color=yellow) |
 | [**PowerBIStaticRLSMagic**](https://github.com/sulaiman013/PowerBIStaticRLSMagic) | App-owns-data Power BI embedding with static RLS: one embedded report, each viewer sees only their own slice — no per-user Power BI licenses. | ![Stars](https://img.shields.io/github/stars/sulaiman013/PowerBIStaticRLSMagic?style=flat&color=yellow) |
 | [**CodeFirstPowerBI**](https://github.com/sulaiman013/CodeFirstPowerBI) | Code-first Power BI report design: from an Excalidraw sketch to a production report, with a coding agent authoring the canvas, visuals & model. | ![Stars](https://img.shields.io/github/stars/sulaiman013/CodeFirstPowerBI?style=flat&color=yellow) |
 | [**powerbi-mcp**](https://github.com/sulaiman013/powerbi-mcp) | MCP server for natural-language interaction with Power BI datasets — Desktop & Cloud via XMLA. | ![Stars](https://img.shields.io/github/stars/sulaiman013/powerbi-mcp?style=flat&color=yellow) |
 | [**Superstore_FabricApp**](https://github.com/sulaiman013/Superstore_FabricApp) | Two-app Microsoft Fabric translytical demo: an operational self-checkout that *writes* sales, and a Direct Lake dashboard that *reads* them back near real time. | ![Stars](https://img.shields.io/github/stars/sulaiman013/Superstore_FabricApp?style=flat&color=yellow) |
+| [**MS-Rayfin-and-Fabric-R-D**](https://github.com/sulaiman013/MS-Rayfin-and-Fabric-R-D) | R&D POC of the Rayfin + Microsoft Fabric translytical loop: an app captures sales-pipeline data, Fabric auto-mirrors it to OneLake, and a Direct Lake Power BI report serves funnel analytics — built CLI-only with `fab` + `pbir`. | ![Stars](https://img.shields.io/github/stars/sulaiman013/MS-Rayfin-and-Fabric-R-D?style=flat&color=yellow) |
 
 <p align="center">
   <a href="https://github.com/sulaiman013?tab=repositories&sort=pushed">
